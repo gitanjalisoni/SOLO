@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #0F1B07;
+  color: #eee;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #0F1B07;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.s-logo {
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 26%;
+  margin-top: 10%;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.solo {
+  font-size: 40px;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.by {
+  font-size: 13px;
+  line-height: 0;
+  margin-left: 20px;
+}
+
+.stars {
+  font-size: 14px;
+  letter-spacing: 1.3px;
+  line-height: 40px;
+}
+
+.start-earning1 {
+  border-color: #CBEC81;
+  background-color: #0F1B07;
+  color: #CBEC81;
+  padding: 12px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  letter-spacing: 1.5px;
+  line-height: 16px;
+}
+
+.start-earning1 img {
+  width: 20px;
+  margin-left: 5px;
+  color: #BCFA29;
+}
+
+.start-earning {
+  border-color: #CBEC81;
+  background-color: #0F1B07;
+  color: #CBEC81;
+  padding: 12px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  margin-top: 18%;
+  letter-spacing: 1.5px;
+  line-height: 16px;
+}
+
+.start-earning img {
+  width: 20px;
+  margin-left: 5px;
+}
+
+.content {
+  padding: 30px;
+  text-align: left;
+  font-size: 1vw;
+  margin-left: 6%;
+  flex-direction: row;
+  display: flex;
+  margin-top: 10%;
+}
+
+.text {
+  margin-bottom: 30px;
+}
+
+.text h1 {
+  margin: 1px 1vh;
+  line-height: 55px;
+  color: #C3FD39;
+  font-size: 10vh;
+  font-weight: 100;
+  width: 200%;
+}
+
+p {
+  font-size: 1.3vw;
+  width: 200%;
+}
+
+.box1 {
+  background-color: #344813;
+  height: 50vh;
+  width: 20vw;
+  margin-left: 20%;
+  padding: 4px 100px;
+  border-radius: 10px;
+  bottom: 10%;
+}
+
+.ImageBox {
+  display: flex;
+  justify-content: space-between;
+  width: 220%;
+  height: 100%;
+  gap: 10%;
+  align-items: center;
+}
+
+.ImageContainer1, .ImageContainer2 {
+  position: relative;
+  width: 200%;
+  height: 110%;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.ImageContainer1 {
+  right: 25%;
+  bottom: 10%;
+}
+
+.ImageContainer2 {
+  right: 38%;
+  top: 25%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10%;
+}
+
+.campaign-details {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.campaign-reward, .campaign-name, .campaign-platforms, .campaign-payout {
+  margin: 5px 0;
+}
