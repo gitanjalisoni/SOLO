@@ -3,6 +3,13 @@ body {
   font-family: Arial, sans-serif;
   background-color: #0F1B07;
   color: #eee;
+  height: 100vh; 
+}
+
+.landing-page { 
+  display: flex;
+  flex-direction: column;
+  height: 100v;
 }
 
 .header {
@@ -33,7 +40,7 @@ body {
 }
 
 .solo {
-  font-size: 40px;
+  font-size: 4vw; 
   font-weight: bold;
   margin-right: 5px;
 }
@@ -99,6 +106,7 @@ body {
   margin-left: 6%;
   flex-direction: row;
   display: flex;
+  flex: 1; 
   margin-top: 10%;
 }
 
@@ -115,33 +123,34 @@ body {
   width: 200%;
 }
 
-p {
+.text p {
   font-size: 1.3vw;
   width: 200%;
 }
 
 .box1 {
   background-color: #344813;
-  height: 50vh;
-  width: 20vw;
-  margin-left: 20%;
+  height: 40vh;
+  width: 16vw;
+  margin-left: 18%; 
   padding: 4px 100px;
   border-radius: 10px;
-  bottom: 10%;
+  margin-bottom: 35% 
 }
 
 .ImageBox {
   display: flex;
   justify-content: space-between;
-  width: 220%;
-  height: 100%;
+  width: 220%; 
+  height: 99%;
   gap: 10%;
   align-items: center;
 }
 
-.ImageContainer1, .ImageContainer2 {
+.ImageContainer1,
+.ImageContainer2 {
   position: relative;
-  width: 200%;
+  width: 200%; 
   height: 110%;
   overflow: hidden;
   border-radius: 10%;
@@ -149,31 +158,96 @@ p {
 
 .ImageContainer1 {
   right: 25%;
-  bottom: 10%;
+  bottom: 18%;
+  background-color: #F301AD;
 }
 
 .ImageContainer2 {
   right: 38%;
   top: 25%;
+  background-color: #333C3B;
 }
 
 img {
   width: 100%;
   height: auto;
   display: block;
-  border-radius: 10%;
+  border-bottom-right-radius: 50% 10%;
+  border-bottom-left-radius: 50% 10%;
 }
 
-.campaign-details {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  color: #fff;
-  background-color: rgba(0, 0, 0, 0.5);
-  padding: 10px;
-  border-radius: 5px;
+.name1 h1 {
+  position: relative;
+  font-size: 40px; 
+  font-weight: 200;
+  left: 6%;
+  line-height: 0.1%;
 }
 
-.campaign-reward, .campaign-name, .campaign-platforms, .campaign-payout {
-  margin: 5px 0;
+.name2 h1 {
+  position: relative;
+  font-size: 40px; 
+  font-weight: 200;
+  left: 45%;
+  line-height: 0.1%;
+}
+
+.name1 p {
+  position: relative;
+  font-size: 16px; 
+  font-weight: 200;
+  left: 7%;
+}
+
+.name2 p {
+  position: relative;
+  font-size: 16px; 
+  font-weight: 200;
+  left: 62%;
+}
+
+.block1 {
+  position: relative;
+  font-size: 80%;  
+  right: 6%; 
+  background: #C3FD39;
+  padding: 2% 4%;
+  width: 5vw;
+  border-radius: 20%;
+  color: black;
+  bottom: 10%;
+}
+.block1 p{
+  font-size: 11px;
+}
+
+.block1 h1 { 
+  line-height: 1%;
+  font-weight: 150;
+}
+.tricky-icon{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5%;
+}
+.block2 {
+  position: relative;
+  font-size: 80%;  
+  left: 59%; 
+  background-color: white;
+  background-image: linear-gradient(to bottom, white 0%,#D8FF7B 90%, #D8FF7B 100%);
+  padding: 5% 4%;
+  width: 5vw;
+  border-radius: 20%;
+  color: black;
+  bottom: 138%;
+}
+.block2 p{
+  font-size: 9px;
+}
+
+.block2 h1 { 
+  line-height: 3%;
+  font-weight: 150;
 }
